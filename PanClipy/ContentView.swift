@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var clipBoardMockText: [String] = ["Text one", "Text two", "test"]
+    @State private var clipBoardMockText: [String] = ["Text one", "Text two", "Text three"]
     
     var body: some View {
         VStack {

@@ -29,6 +29,23 @@
 		C2723B052D5C0D42000576AE /* PanClipyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanClipyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C26C627C2D66A8AF00A6BFDB /* Exceptions for "PanClipyUITests" folder in "PanClipy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+			);
+			target = C2723AE42D5C0D40000576AE /* PanClipy */;
+		};
+		C26C627D2D66A8AF00A6BFDB /* Exceptions for "PanClipyUITests" folder in "PanClipyUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+			);
+			target = C2723B042D5C0D42000576AE /* PanClipyUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C2723AE72D5C0D40000576AE /* PanClipy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -42,6 +59,10 @@
 		};
 		C2723B082D5C0D42000576AE /* PanClipyUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C26C627C2D66A8AF00A6BFDB /* Exceptions for "PanClipyUITests" folder in "PanClipy" target */,
+				C26C627D2D66A8AF00A6BFDB /* Exceptions for "PanClipyUITests" folder in "PanClipyUITests" target */,
+			);
 			path = PanClipyUITests;
 			sourceTree = "<group>";
 		};
